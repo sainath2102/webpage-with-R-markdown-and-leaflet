@@ -135,16 +135,18 @@ $(document).ready(function () {
 </div>
 
 
+<div id="in-this-webpage-the-map-is-created-using-leaflet-and-three-markers-for-the-locations-new-york-egypt-and-india-new-delhi-are-created." class="section level1">
+<h1>In this webpage the map is created using leaflet and three markers for the locations New York, Egypt and India (New Delhi) are created.</h1>
 <pre class="r"><code>library(leaflet)</code></pre>
 <pre><code>## Warning: package 'leaflet' was built under R version 3.4.2</code></pre>
 <pre class="r"><code>my_map &lt;- leaflet() %&gt;% 
   addTiles() %&gt;% addMarkers(lat=40.714270, lng= -74.005970, popup=&quot;New York&quot;)%&gt;% 
   addMarkers(lat=30.06263000, lng=  31.24967000, popup=&quot;Egypt&quot;) %&gt;%
   addMarkers(lat=28.635760, lng=    77.224450, popup=&quot;India&quot;) 
-
 my_map</code></pre>
-<div id="htmlwidget-4628e81cf9529c1b24ac" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4628e81cf9529c1b24ac">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[40.71427,-74.00597,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"New York",null,null,null,null,null,null]},{"method":"addMarkers","args":[30.06263,31.24967,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Egypt",null,null,null,null,null,null]},{"method":"addMarkers","args":[28.63576,77.22445,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"India",null,null,null,null,null,null]}],"limits":{"lat":[28.63576,40.71427],"lng":[-74.00597,77.22445]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-eb264073c1bd0c1a3b9a" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-eb264073c1bd0c1a3b9a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[40.71427,-74.00597,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"New York",null,null,null,null,null,null]},{"method":"addMarkers","args":[30.06263,31.24967,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Egypt",null,null,null,null,null,null]},{"method":"addMarkers","args":[28.63576,77.22445,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"India",null,null,null,null,null,null]}],"limits":{"lat":[28.63576,40.71427],"lng":[-74.00597,77.22445]}},"evals":[],"jsHooks":[]}</script>
+</div>
 
 
 
